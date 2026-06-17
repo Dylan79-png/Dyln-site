@@ -323,7 +323,7 @@ button:hover{
 }
 
 .slide{
-    display: ;
+    display: none;
     width: 100%;
     height: 100vh;
     animation: fadeEffect 1.5s;
