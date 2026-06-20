@@ -12,7 +12,7 @@ body{
     padding: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(images/background2.jpg);
+    background-image: url(background2.jpg);
     
 }
 
@@ -80,6 +80,15 @@ nav a{
     color: white;
     transition: 0.3s;
     font-weight: bold;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav a:last-child {
+    display: block;
+  }
 }
 
 nav a:hover{
